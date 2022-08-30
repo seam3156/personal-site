@@ -13,4 +13,3 @@ def home():
 def about():
     return render_template("about.html", title='About')
 
-app.run(host='0.0.0.0', port=5000, debug=True)
