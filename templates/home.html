@@ -1,31 +1,34 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1>home</h1>
-    <p>
-        {% for n in range(100) %}
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        eeeee
-        {% endfor %}
-    </p>
+    <h1>Welcome to my personal website!</h1>
+    <section id="about-me">
+        <h2>About Me</h2>
+        <ul>
+            <li><p>Hello, my name is Sean Mckeown</p></li>
+            <li><p>I currently study at Bishopbriggs Academy</p></li>
+        </ul>
+    </section>
+    <section id="school">
+        <h2 >School</h2>
+        <ul>
+            <li><p>I am in my sixth year</p></li>
+            <li><p>I study advanced maths, advanced physics, cyber security and admin</p></li>
+        </ul>
+    </section>
+    <section id="Intrests">
+        <h2>Intrests</h2>
+        <ul>
+            <li><p>Guitar - I have been playing for a few months</p></li>
+            <li><p>linux - i use archlinux on my laptop and use the i3wm window manager</p></li>
+            <li><p>Programming - use freecodecamp(web development coarse) and have been learning and using C and python through youtube</p></li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><p>I made a python script to decipher a message encrypted with Caesars cipher</p></li>
+            <li><p>I made a password manager in python</p></li>
+            <li><p>I made this website with the python api flask and some html/css</p></li>
+        </ul>
+    </section>
 {% endblock content %}

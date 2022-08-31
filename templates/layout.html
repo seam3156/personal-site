@@ -15,7 +15,15 @@
     
     <nav>
         <div class="navbar">
-            <a class="navtitle" href="{{ url_for('home') }}">Seans Website</a>
+            <a class="navtitle" href="{{ url_for('home') }}">Sean`s Website</a>
+            <div class="navlink dropdown">
+                Sections
+                <div class="dropdown-content">
+                    <a href="/#about-me" class="section">About Me</a>
+                    <a href="/#school" class="section">School</a>
+                    <a href="/#projects" class="section">Projects</a>
+                </div>
+            </div>
             <a class="navlink" href="{{ url_for('home') }}">Home</a>
             <a class="navlink" href="{{ url_for('about') }}">About</a>
         </div>
