@@ -87,7 +87,6 @@ section {
 .section {
     color: aliceblue;
     text-decoration: none;
-    margin-bottom: 5px;
 }
 
 .section:hover {
