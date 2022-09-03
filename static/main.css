@@ -117,9 +117,22 @@ section {
     font-size: 30px;
 }
 
+p {
+    font-size: 30px;
+}
+
+li {
+    margin-left: 1%;
+}
+
 @media (max-width: 1000px) {
-    .navtitle {
+    
+    p {
         font-size: 20px;
+    }
+
+    .navtitle {
+        font-size: 16px;
     }
     .navlink {
         font-size: 18px;
@@ -137,16 +150,10 @@ section {
         font-size: 35px;
     }
     h2 {
-        font-size: 25;
+        font-size: 25px;
     }
 }
 
-p {
-    font-size: 30px;
-}
 
-li {
-    margin-left: 1%;
-}
 
 
