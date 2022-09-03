@@ -10,6 +10,8 @@ html {
     color:aliceblue;
 }
 
+
+
 .navbar {
     width: 100%;
     margin: 10;
@@ -28,22 +30,32 @@ html {
 main {
     margin-top: 50px;
     margin-left: 20px;
-    height: 5000px;
+    height: 2000px;
 }
 
 h1 {
     text-align: center;
-    margin: 100px 0 25px -20px;
-    font-size: 40px;
+    margin: 50px 0 25px -20px;
+    font-size: 60px;
 }
 
 h2 {
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 section {
     padding-top: 50px;
+}
+
+.section-link {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.section-link:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 .navlink {
@@ -55,10 +67,8 @@ section {
 }
 
 .navlink:hover {
-
     text-decoration: underline;
     color: black;
-
 }
 
 .dropdown {
@@ -70,14 +80,13 @@ section {
     display: none;
     position: absolute;
     background-color: lightslategray;
-    width: 100px;
-    padding: 12px 20px;
+    width: 150px;
+    padding: 0;
     border: black solid;
     z-index: 1;
     font-size: 16px;
-    text-decoration: none;
     text-align: center;
-    left: -25px;
+    left: -30px;
 }
   
 .dropdown:hover .dropdown-content {
@@ -85,13 +94,18 @@ section {
 }
 
 .section {
-    color: aliceblue;
-    text-decoration: none;
+    border-bottom: solid black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.section:hover {
-    color: black;
-    text-decoration: underline;
+.section:last-of-type {
+    border-bottom: none;
 }
 
 .navtitle {
@@ -128,7 +142,7 @@ section {
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 li {
