@@ -126,6 +126,12 @@ li {
     margin-left: 1%;
 }
 
+.nocolour {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
 @media (max-width: 1000px) {
     
     p {
