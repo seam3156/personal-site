@@ -16,16 +16,8 @@
     <nav>
         <div class="navbar">
             <a class="navtitle" href="{{ url_for('home') }}">Sean`s Website</a>
-            <div class="navlink dropdown">
-                Sections
-                <div class="dropdown-content">
-                    <div class="section"><a href="/#about-me" class="section-link" >About Me</a></div>
-                    <div class="section"><a href="/#school" class="section-link" >School</a></div>
-                    <div class="section"><a href="/#intrests" class="section-link" >Intrests</a></div>
-                    <div class="section"><a href="/#projects" class="section-link" >Projects</a></div>
-                </div>
-            </div>
             <a class="navlink" href="{{ url_for('home') }}">Home</a>
+            <a class="navlink" href="{{ url_for('projects') }}">Projects</a>
             <a class="navlink" href="{{ url_for('about') }}">About</a>
         </div>
     </nav>

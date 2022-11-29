@@ -30,7 +30,6 @@ html {
 main {
     margin-top: 50px;
     margin-left: 20px;
-    height: 2000px;
 }
 
 h1 {
@@ -42,6 +41,8 @@ h1 {
 h2 {
     text-decoration: underline;
     font-size: 50px;
+    padding-bottom: 20px;
+
 }
 
 section {
@@ -151,6 +152,10 @@ li {
     }
     h2 {
         font-size: 25px;
+    }
+
+    img {
+        width: 95%;
     }
 }
 

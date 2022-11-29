@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+    <section>
+        <h1>My Projects</h1>
+    </section>
+    <section>
+        <h2>Basic Password Manager</h2>
+        <img src="{{ url_for('static', filename='passwordmanager.png') }}", alt='screenshot of program'>
+        <ul>
+            <li><p>This program can save passwords to a text file and display them</p></li>
+            <li><p>It uses a python library called fernet to encrypt the password text file</p></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Pong</h2>
+        <img src="{{ url_for('static', filename='pong.png') }}", alt="screenshot of program">
+        <ul>
+            <li><p>Pong game made in python with the pygame library</p></li>
+            <li><p>The player controls one paddel and the computer controls the other</p></li>
+            <li><p>The computer tries to move to the same height as the ball while it is in it half of the screen</p></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Weather Program</h2>
+        <img src="{{ url_for('static', filename='weather.png') }}", alt="screenshot of program">
+        <ul>
+            <li><p>It uses the beutiful soup python library to get the weather off of a website</p></li>
+            <li><p>the user can choose between some scottish cities</p></li>
+            <li><p>The program displays the temperature and a description of the conditions</p></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Tik Tac Toe</h2>
+        <img src="{{ url_for('static', filename='tiktac.png') }}", alt="screenshot of program">
+        <ul>
+            <li><p>The game tik tac toe created in python</p></li>
+            <li><p>It stores the state of each sqare in an array</p></li>
+        </ul>
+    </section>
+    </section>
+{% endblock content %}
