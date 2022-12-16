@@ -131,6 +131,15 @@ li {
     text-decoration: none;
 }
 
+.nocolour:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+a {
+  color: cyan;
+}
+
 
 @media (max-width: 1000px) {
     
